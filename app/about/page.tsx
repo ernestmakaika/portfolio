@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
@@ -6,40 +7,35 @@ export default function AboutPage() {
     <main className="min-h-screen bg-[#0A1628]">
       <Navbar />
 
-      <section className="pt-32 pb-32 px-6 md:px-12">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <p className="text-[#5D8AA8] font-mono text-sm tracking-wide">About Me</p>
+      <section className="pt-32 pb-16">
+        <div className="max-w-6xl mx-auto px-6 md:px-12">
+          <div className="grid md:grid-cols-[auto_auto] gap-3 md:gap-4 items-start">
+            <div className="max-w-xl">
+              <p className="text-[#5D8AA8] font-sans text-sm tracking-wide">A bit about me</p>
               <h1 className="mt-2 text-3xl md:text-4xl font-bold text-[#F8FAFC]">
-                Designer who cares about impact
+                Hello, I'm Ernest
               </h1>
               <div className="mt-6 space-y-4 text-[#94A3B8] leading-relaxed">
                 <p>
-                  I&apos;m a product designer based in Accra, Ghana, with a focus on creating accessible,
-                  human-centered digital experiences. I believe great design should work for everyone.
+                  I&apos;m a product designer pursuing a Master's in Information Management and Systems at UC Berkeley. It
+                  all started with a design thinking class I took in undergrad and I&apos;ve been hooked ever since. 
                 </p>
                 <p>
-                  My background in Human-Computer Interaction drives me to deeply understand user needs
-                  before jumping into solutions. I&apos;m particularly interested in assistive technology and
-                  designing for underserved communities.
+                  Before Berkeley, I worked in healthtech and global health, recently 
+                  at the Clinton Health Access Initiative. When not designing, I&apos;m hiking, watching Formula 1 and the Premier 
+                  League, or collecting fridge magnets on my trips. 
                 </p>
-                <p>
-                  When I&apos;m not designing, you&apos;ll find me exploring new music, reading about emerging
-                  technologies, or mentoring aspiring designers.
-                </p>
-              </div>
-              <div className="mt-8 flex gap-4">
-                <a href="#" className="text-[#5D8AA8] hover:text-[#7BA3B8] transition-colors">LinkedIn</a>
-                <span className="text-[#1E3A5F]">•</span>
-                <a href="#" className="text-[#5D8AA8] hover:text-[#7BA3B8] transition-colors">Twitter</a>
-                <span className="text-[#1E3A5F]">•</span>
-                <a href="#" className="text-[#5D8AA8] hover:text-[#7BA3B8] transition-colors">Dribbble</a>
               </div>
             </div>
-            <div className="relative">
-              <div className="aspect-square rounded-2xl bg-[#132337] border border-dashed border-[#1E3A5F] overflow-hidden flex items-center justify-center">
-                <span className="text-sm text-[#64748B]">Image placeholder</span>
+            <div className="relative flex justify-center md:justify-start">
+              <div className="relative aspect-[4/5] w-full max-w-[280px] mx-auto md:max-w-none md:mx-0 md:w-72 rounded-2xl overflow-hidden">
+                <Image
+                  src="/images/IMG_0380.jpg"
+                  alt="Ernest at Grand Canyon"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover object-center"
+                />
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Beacon Case Study | Ernest",
+  title: "Ernest Makaika – Product Designer",
   description:
     "Empowering visually impaired users to navigate more independently through smart glasses and voice-first navigation.",
 }

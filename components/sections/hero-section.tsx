@@ -33,7 +33,7 @@ export function HeroSection() {
                 { label: 'Timeline', value: '8 Weeks' },
               ].map((item) => (
                 <div key={item.label}>
-                  <p className="text-[#5D8AA8] font-mono text-xs mb-2">{item.label}</p>
+                  <p className="text-[#5D8AA8] font-sans text-xs mb-2">{item.label}</p>
                   <p className="text-[#F8FAFC] text-sm font-medium whitespace-nowrap">{item.value}</p>
                 </div>
               ))}
