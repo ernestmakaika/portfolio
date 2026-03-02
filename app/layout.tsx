@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Ernest Makaika – Product Designer",
   description:
-    "Empowering visually impaired users to navigate more independently through smart glasses and voice-first navigation.",
+    "Ernest Makaikaika is a product designer crafting intuitive digital experiences using a human-centered design approach.",
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
