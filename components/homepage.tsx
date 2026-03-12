@@ -11,10 +11,10 @@ export function Homepage() {
       <section className="relative min-h-screen flex items-center justify-center pt-20">
         <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 w-full text-center md:text-left">
           <h1 className="mt-4 text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-[#F8FAFC]">
-            Product and Systems Thinker
+            Design and Product Thinker
           </h1>
           <p className="mt-6 text-lg md:text-xl text-[#94A3B8] max-w-3xl md:max-w-4xl leading-relaxed md:pr-8">
-            I am a product and design thinker currently pursuing my Master's in Information Management and Systems at UC Berkeley with a focus on product design and product management
+            I am a product and design thinker currently pursuing my Master's in Information Management and Systems at UC Berkeley 
           </p>
         </div>
       </section>
